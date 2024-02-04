@@ -1,5 +1,5 @@
-@import "../../mixins";
-@import "../../variables";
+@import "../../../mixins";
+@import "../../../variables";
 
 #home {
     overflow-x: hidden;
@@ -75,7 +75,7 @@
       content: "";
       width: 13.12em;
       height: 6.8em;
-      background: url("../../../assets/svgs/hero-name-bg.svg");
+      background: url("../../../assets/svg/hero-name-bg.svg");
       position: absolute;
       top: 0;
       z-index: -1;

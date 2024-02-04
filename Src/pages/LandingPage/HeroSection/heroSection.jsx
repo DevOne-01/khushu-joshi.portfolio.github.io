@@ -27,7 +27,7 @@ const HeroSection = () => {
                   <Slide top cascade>
                     <div className="hero-name-container">
                       <div className="filler-text">Hey there! I'm</div>
-                      <h1 className="name">Shashwat Rathod</h1>
+                      <h1 className="name">Khush Joshi</h1>
                     </div>
                     <div className="adjective-container">
                       <Typewriter

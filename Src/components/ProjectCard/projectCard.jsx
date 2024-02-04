@@ -5,35 +5,37 @@ import './projectCard.scss';
 
 
 const ProjectCard = ({
-    thumbnailSrc,
-    title,
-    technologies,
-    links,
-    description,
-  }) => {
-    return (
-      <>
-        <div className="project">
-          <img
-            src={thumbnailSrc}
-            alt={title}
-            className="project-thumbnail"
-            loading="lazy"
-          />
-          <div className="project-info-container">
-            <div className="project-info-header">
-              <div className="project-title">{title}</div>
-              <div className="project-tech-chips-container">
-                {technologies.map((tech, index) => (
+  thumbnailSrc,
+  title,
+  technologies,
+  links,
+  description,
+}) => {
+  return (
+    <>
+      <div className="project">
+        <img
+          src={thumbnailSrc}
+          alt={title}
+          className="project-thumbnail"
+          loading="lazy"
+        />
+        <div className="project-info-container">
+          <div className="project-info-header">
+            <div className="project-title">{title}</div>
+            <div className="project-tech-chips-container">
+              {Array.isArray(technologies) &&
+                technologies.map((tech, index) => (
                   <TechChip
                     key={index}
                     img={tech?.icon || undefined}
                     title={tech.title}
                   />
                 ))}
-              </div>
-              <div className="project-links-container">
-                {links.map((linkObj, index) => (
+            </div>
+            <div className="project-links-container">
+              {Array.isArray(links) &&
+                links.map((linkObj, index) => (
                   <div key={index}>
                     <a
                       href={linkObj.href}
@@ -55,15 +57,15 @@ const ProjectCard = ({
                     </ReactTooltip>
                   </div>
                 ))}
-              </div>
             </div>
-            <hr />
-  
-            <div className="project-description">{description}</div>
           </div>
+          <hr />
+
+          <div className="project-description">{description}</div>
         </div>
-      </>
-    );
-  };
-  
-  export default ProjectCard;
+      </div>
+    </>
+  );
+};
+
+export default ProjectCard;

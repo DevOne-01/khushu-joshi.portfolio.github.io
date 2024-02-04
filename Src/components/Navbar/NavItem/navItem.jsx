@@ -8,7 +8,7 @@ const NavItem = ({ itemName, itemLink }) => {
         <ScrollLink
           to={itemLink}
           smooth={true}
-          exact={true}
+          exact="true"
           spy={true}
           offset={-80}
         >

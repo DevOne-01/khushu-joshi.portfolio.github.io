@@ -37,7 +37,7 @@ const Navbar = () => {
                 <ScrollLink
                   to="home"
                   smooth={true}
-                  exact={true}
+                  exact="true"
                   spy={true}
                   offset={-80}
                   className="nav-scroll-link"
