@@ -1,11 +1,11 @@
-import React from "react";
-import "./heroSection.scss";
-import { ReactComponent as TypingIllustration } from "../../../assets/svg/typing.svg";
-import PillButton from "../../../components/PillButton/pillButton";
-import Slide from "react-reveal/Slide";
-import socials from "../../../assets/data/Socials";
-import Typewriter from "typewriter-effect";
-import { Link as ScrollLink } from "react-scroll";
+import React from 'react';
+import './heroSection.scss';
+import { ReactComponent as TypingIllustration } from '../../../assets/svg/typing.svg';
+import PillButton from '../../../components/PillButton/pillButton';
+import Slide from 'react-reveal/Slide';
+import socials from '../../../assets/data/Socials';
+import Typewriter from 'typewriter-effect';
+import { Link as ScrollLink } from 'react-scroll';
 
 const HeroSection = () => {
     const whatAmIs = [

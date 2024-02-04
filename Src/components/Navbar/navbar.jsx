@@ -1,8 +1,8 @@
-import clsx from "clsx";
-import React, { useEffect, useState } from "react";
-import "./navbar.scss";
-import { Link as ScrollLink } from "react-scroll";
-import NavItem from "./NavItem/navItem";
+import clsx from 'clsx';
+import React, { useEffect, useState } from 'react';
+import './navbar.scss';
+import { Link as ScrollLink } from 'react-scroll';
+import NavItem from './NavItem/navItem';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);

@@ -1,9 +1,9 @@
-import "./workSection.scss";
-import React from "react";
-import MyVerticalTimeline from "../../../components/MyVerticalTimeline/myVerticalTimeline";
-import jobs from "../../../assets/data/Jobs";
-import { VerticalTimeline } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+import './workSection.scss';
+import React from 'react';
+import MyVerticalTimeline from '../../../components/MyVerticalTimeline/myVerticalTimeline';
+import jobs from '../../../assets/data/Jobs';
+import { VerticalTimeline } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 const WorkSection = () => {
     return (

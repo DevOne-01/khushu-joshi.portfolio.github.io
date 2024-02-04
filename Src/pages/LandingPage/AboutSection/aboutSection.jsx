@@ -1,6 +1,6 @@
-import React from "react";
-import "./aboutSection.scss";
-import Slide from "react-reveal/Slide";
+import React from 'react';
+import './aboutSection.scss';
+import Slide from 'react-reveal/Slide';
 
 const AboutSection = () => {
     return (

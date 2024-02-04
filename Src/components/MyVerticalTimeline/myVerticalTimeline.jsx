@@ -1,8 +1,8 @@
-import React from "react";
-import { VerticalTimelineElement } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import "./myVerticalTimeline.scss"
-import TechChip from "../TechChip/techChip";
+import React from 'react';
+import { VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import './myVerticalTimeline.scss'
+import TechChip from '../TechChip/techChip';
 
 const MyVerticalTimeline = ({ job }) => {
     return (

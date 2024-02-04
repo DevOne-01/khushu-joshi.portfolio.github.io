@@ -1,8 +1,8 @@
-import React from "react";
-import "./projectsSection.scss";
-import ProjectCard from "../../../components/ProjectCard/projectCard";
-import Slide from "react-reveal/Slide";
-import projects from "../../../assets/data/Projects";
+import React from 'react';
+import './projectsSection.scss';
+import ProjectCard from '../../../components/ProjectCard/projectCard';
+import Slide from 'react-reveal/Slide';
+import projects from '../../../assets/data/Projects';
 
 const ProjectsSection = () => {
     return (

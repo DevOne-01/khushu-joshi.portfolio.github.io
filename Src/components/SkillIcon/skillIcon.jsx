@@ -1,6 +1,6 @@
-import React from "react";
-import ReactTooltip from "react-tooltip";
-import "./skillIcon.scss";
+import React from 'react';
+import ReactTooltip from 'react-tooltip';
+import './skillIcon.scss';
 
 const SkillIcon = ({ skill }) => {
     return (

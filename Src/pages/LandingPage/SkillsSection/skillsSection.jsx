@@ -1,9 +1,9 @@
-import "./skillsSection.scss";
-import React from "react";
-import skills from "../../../assets/data/Skills";
-import SkillIcon from "../../../components/SkillIcon/skillIcon";
-import Typewriter from "typewriter-effect";
-import Slide from "react-reveal/Slide";
+import './skillsSection.scss';
+import React from 'react';
+import skills from '../../../assets/data/Skills';
+import SkillIcon from '../../../components/SkillIcon/skillIcon';
+import Typewriter from 'typewriter-effect';
+import Slide from 'react-reveal/Slide';
 
 const SkillsSection = () => {
     const subtitleTexts = ["good at", "a little good at"];

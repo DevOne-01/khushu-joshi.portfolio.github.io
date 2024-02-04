@@ -1,10 +1,10 @@
-import React, { useRef, useState } from "react";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import emailjs from "emailjs-com";
-import { AiOutlineLoading } from "react-icons/ai";
-import Slide from "react-reveal/Slide";
-import "./contactSection.scss";
-import Snackbar from "../../../components/Snackbar/snackbar";
+import React, { useRef, useState } from 'react';
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
+import emailjs from 'emailjs-com';
+import { AiOutlineLoading } from 'react-icons/ai';
+import Slide from 'react-reveal/Slide';
+import './contactSection.scss';
+import Snackbar from '../../../components/Snackbar/snackbar';
 
 const ContactSection = () => {
     const [submitDisabled, setSubmitDisabled] = useState(false);

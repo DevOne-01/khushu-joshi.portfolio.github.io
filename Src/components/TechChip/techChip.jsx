@@ -1,5 +1,5 @@
-import React from "react";
-import "./techChip.scss";
+import React from 'react';
+import './techChip.scss';
 const TechChip = (props) => {
     return (
       <>

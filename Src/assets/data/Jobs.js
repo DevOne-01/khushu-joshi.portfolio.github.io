@@ -1,5 +1,5 @@
-import { GiBrain } from "react-icons/gi";
-import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { GiBrain } from 'react-icons/gi';
+import { HiOutlineDesktopComputer } from 'react-icons/hi';
 
 const jobs = [
   {

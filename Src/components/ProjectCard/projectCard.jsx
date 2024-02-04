@@ -1,7 +1,7 @@
-import React from "react";
-import ReactTooltip from "react-tooltip";
-import TechChip from "../TechChip/techChip";
-import "./projectCard.scss";
+import React from 'react';
+import ReactTooltip from 'react-tooltip';
+import TechChip from '../TechChip/techChip';
+import './projectCard.scss';
 
 
 const ProjectCard = ({

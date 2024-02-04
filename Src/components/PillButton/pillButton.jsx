@@ -1,5 +1,5 @@
-import React from "react";
-import "./pillButton.scss";
+import React from 'react';
+import './pillButton.scss';
 
 const PillButton = (props) => {
     const createRipples = (e) => {

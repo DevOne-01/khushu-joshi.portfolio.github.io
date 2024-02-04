@@ -1,6 +1,6 @@
-import { ReactComponent as GithubIcon } from "../svg/Github_white.svg";
-import { ReactComponent as MailIcon } from "../svg/Mail_white.svg";
-import { ReactComponent as LinkedinIcon } from "../svg/LinkedIN_white.svg";
+import { ReactComponent as GithubIcon } from '../svg/Github_white.svg';
+import { ReactComponent as MailIcon } from '../svg/Mail_white.svg';
+import { ReactComponent as LinkedinIcon } from '../svg/LinkedIN_white.svg';
 
 const socials = [
     {

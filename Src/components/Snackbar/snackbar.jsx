@@ -1,6 +1,6 @@
-import clsx from "clsx";
-import React, { useEffect } from "react";
-import "./snackbar.scss";
+import clsx from 'clsx';
+import React, { useEffect } from 'react';
+import './snackbar.scss';
 
 const Snackbar = ({ showSnackbar, setShowSnackbar, type, message }) => {
     useEffect(() => {

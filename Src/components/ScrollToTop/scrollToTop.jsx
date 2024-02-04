@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
-import "./scrollToTop.scss";
-import { IoIosArrowUp } from "react-icons/io";
-import clsx from "clsx";
-import { animateScroll as scroll } from "react-scroll";
+import React, { useEffect, useRef, useState } from 'react';
+import './scrollToTop.scss';
+import { IoIosArrowUp } from 'react-icons/io';
+import clsx from 'clsx';
+import { animateScroll as scroll } from 'react-scroll';
 
 const ScrollToTop = () => {
     const [visible, setVisible] = useState(false);

@@ -1,6 +1,6 @@
-import React from "react";
-import { Link as ScrollLink } from "react-scroll";
-import "./navItem.scss";
+import React from 'react';
+import { Link as ScrollLink } from 'react-scroll';
+import './navItem.scss';
 
 const NavItem = ({ itemName, itemLink }) => {
     return (
