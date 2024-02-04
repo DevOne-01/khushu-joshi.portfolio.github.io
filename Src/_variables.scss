@@ -1,0 +1,19 @@
+$bgPrimary: hsl(
+  173,
+  40%,
+  95%
+); //* Reflect change in this color inside myVerticalTimeline inline styles as well.
+$bgSecondary: hsl(170, 41%, 88%);
+$primary: hsl(167, 34%, 79%);
+$secondary: hsl(193, 75%, 17%);
+$textPrimary: hsl(191, 39%, 33%);
+$textSecondary: hsl(193, 40%, 23%);
+$textTertiary: hsl(158, 37%, 47%);
+$hint: hsl(349, 66%, 64%);
+$breakpoints: (
+  xxl: 1400px,
+  xl: 1200px,
+  l: 992px,
+  m: 768px,
+  s: 600px,
+);

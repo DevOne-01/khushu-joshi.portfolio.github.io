@@ -1,0 +1,61 @@
+@import "./variables.scss";
+@mixin above_breakpoint($breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+  
+  @mixin below_breakpoint($breakpoint) {
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+  
+  @mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+      @content;
+    }
+    @-moz-keyframes #{$animationName} {
+      @content;
+    }
+    @-o-keyframes #{$animationName} {
+      @content;
+    }
+    @keyframes #{$animationName} {
+      @content;
+    }
+  }
+  
+  @mixin animation($str) {
+    -webkit-animation: #{$str};
+    -moz-animation: #{$str};
+    -ms-animation: #{$str};
+    -o-animation: #{$str};
+    animation: #{$str};
+  }
+  
+  @mixin title_text {
+    font-size: 3.5em;
+    color: $textSecondary;
+  }
+  
+  @mixin subtitle_text {
+    font-size: 2em;
+    color: $textTertiary;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  @mixin transform($transforms) {
+    -webkit-transform: $transforms;
+    -moz-transform: $transforms;
+    -ms-transform: $transforms;
+    transform: $transforms;
+  }
+  
+  @mixin transition($transition) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}

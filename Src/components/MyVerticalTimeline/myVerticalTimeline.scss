@@ -1,0 +1,43 @@
+@import "../../mixins";
+@import "../../variables";
+
+.vertical-timeline::before {
+    background: $secondary;
+  }
+  
+  .vertical-timeline-element--work {
+    font-family: inherit;
+    color: $textPrimary;
+  
+    .vertical-timeline-element-title {
+      font-size: 2em;
+      color: $textSecondary;
+      font-weight: 600;
+    }
+  
+    .vertical-timeline-element-subtitle {
+      color: $textSecondary;
+      font-weight: 400;
+      font-size: 1.8em;
+    }
+  
+    p {
+      font-size: 1em !important;
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+      color: $textPrimary;
+  
+      span {
+        font-size: 1.8em;
+        text-align: justify;
+      }
+  
+      .vertical-timeline-tech-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5em;
+      }
+    }
+    }

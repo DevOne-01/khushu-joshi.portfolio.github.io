@@ -1,0 +1,70 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+
+#skills {
+    position: relative;
+  
+    &::after {
+      position: absolute;
+      height: 125%;
+      width: 100%;
+      content: "";
+      right: 0px;
+      bottom: -10px;
+      background-image: url(../../../assets/svg/polybg.svg);
+      background-size: cover;
+      z-index: -2;
+      background-position: center;
+    }
+  }
+  
+  .skills-container {
+    display: grid;
+    place-content: center;
+    padding-inline: 5vw;
+    padding-block: 5vw;
+  
+    font-size: 0.5rem;
+  
+    @include above_breakpoint(m) {
+      font-size: 0.625rem;
+    }
+  }
+  
+  .skills-main-grid {
+    display: grid;
+    grid-template-areas:
+      "title"
+      "skills";
+    row-gap: 2rem;
+  
+    @include above_breakpoint(l) {
+      row-gap: 4rem;
+    }
+  }
+  
+  .skills-title {
+    @include title_text;
+    text-align: center;
+  }
+  
+  .skills-subtitle {
+    @include subtitle_text;
+    text-align: center;
+  
+    // Class injectected by 'typewritter-effect'
+    .Typewriter {
+      display: inline-block;
+    }
+  }
+  
+  .skills-content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
