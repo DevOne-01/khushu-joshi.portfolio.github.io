@@ -42,7 +42,7 @@ const Navbar = () => {
                   offset={-80}
                   className="nav-scroll-link"
                 >
-                  ~$ ./rathod.sh <span className="blinking-cursor"></span>
+                  ~$ ./joshi.sh <span className="blinking-cursor"></span>
                 </ScrollLink>
               </div>
               <ul
